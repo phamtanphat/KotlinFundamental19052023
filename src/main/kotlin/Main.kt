@@ -15,7 +15,14 @@ fun main() {
     // Kiểu ký tự: Char => Example: 'a'
     // Kiểu mảng: Array
     // Kiểu đối tượng: Object
+    // var age: Int = 29
+    // var height: Float = 1.75f
 
-    var age: Int = 29
-    var height: Float = 1.75f
+    // 3:
+    // Biểu thức: Đoạn lệnh có giá trị trả về
+    // Toán tử: + - * /
+    // Toáng hạng: số
+    var number1 = 5
+    var number2 = 10
+    var total = number1 + number2
 }
