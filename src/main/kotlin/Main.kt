@@ -38,11 +38,13 @@ fun main() {
     // 4: Câu điều kiện if else
     var number = 5
     var number2 = 10
-    if (number > number2) {
-        print("Number lớn hơn number2")
+    val message = if (number > number2) {
+        "Number lớn hơn number2"
     } else if (number < number2) {
-        print("Number bé hơn number2")
+        "Number bé hơn number2"
     } else {
-        print("Number bằng number2")
+        "Number bằng number2"
     }
+
+    println(message)
 }
