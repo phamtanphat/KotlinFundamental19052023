@@ -50,10 +50,34 @@ fun main() {
 
     // 5: Câu điều when
     // Không cần dùng break để ngắt lệnh
-    var number = 5
+    // var number = 5
 
-    var message = when(number) {
-        in 1..9 -> "Là số hàng đơn vị"
-        else -> "Không phải số hàng đơn vị"
-    }
+    // var message = when(number) {
+    //    in 1..9 -> "Là số hàng đơn vị"
+    //    else -> "Không phải số hàng đơn vị"
+    // }
+
+    // 6: Mảng
+    // Array
+    // Tổ hợp phím gợi ý sửa lỗi: Alt + enter
+    // Cách 1: Khai báo tường minh
+    // val arrNames = Array(5, object : (Int) -> String {
+    //    override fun invoke(p1: Int): String {
+    //        return "Teo $p1"
+    //     }
+    // })
+
+    // Cách 2: Dùng function arrayOf
+    // val arrNames = arrayOf("Tèo", "Tí", "Tủn")
+    // print(arrNames.size.toString())
+
+    // Note: Array không thay đổi kích thước
+    // Nên dùng array khi xử lý mảng đơn giản
+    // Array lưu theo index (bắt đầu từ 0) và value
+
+    // Cập nhật giá trị
+    // Object like array => js
+    val arrNames = arrayOf("tèo", "Tí", "Tủn")
+    arrNames[0] = "phat"
+    print(arrNames.getOrNull(4))
 }
