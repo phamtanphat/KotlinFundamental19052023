@@ -18,11 +18,21 @@ fun main() {
     // var age: Int = 29
     // var height: Float = 1.75f
 
-    // 3:
+    // 3: Toán tử
     // Biểu thức: Đoạn lệnh có giá trị trả về
     // Toán tử: + - * /
     // Toáng hạng: số
-    var number1 = 5
-    var number2 = 10
-    var total = number1 + number2
+    var number = 5
+    var number2 = number++
+    // Biểu thức ++, --
+    // 1: Nếu ++a
+    //      a: Thực hiện tăng giá trị lên 1
+    //      b: Gán giá trị vào vị trí hiện tại
+
+    // 2: Nếu a++
+    //      a: Gán giá trị vào vị trí hiện tại
+    //      b: Thực hiện tăng giá trị lên 1
+    println("Number $number") // number = 6
+    println("Number2 $number2") // number2 = 5
+
 }
