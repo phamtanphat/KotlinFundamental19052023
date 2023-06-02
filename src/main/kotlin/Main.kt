@@ -36,15 +36,24 @@ fun main() {
     // println("Number2 $number2") // number2 = 5
 
     // 4: Câu điều kiện if else
-    var number = 5
-    var number2 = 10
-    val message = if (number > number2) {
-        "Number lớn hơn number2"
-    } else if (number < number2) {
-        "Number bé hơn number2"
-    } else {
-        "Number bằng number2"
-    }
+    // var number = 5
+    // var number2 = 10
+    // val message = if (number > number2) {
+    //    "Number lớn hơn number2"
+    // } else if (number < number2) {
+    //    "Number bé hơn number2"
+    // } else {
+    //    "Number bằng number2"
+    // }
 
-    println(message)
+    // println(message)
+
+    // 5: Câu điều when
+    // Không cần dùng break để ngắt lệnh
+    var number = 5
+
+    var message = when(number) {
+        in 1..9 -> "Là số hàng đơn vị"
+        else -> "Không phải số hàng đơn vị"
+    }
 }
