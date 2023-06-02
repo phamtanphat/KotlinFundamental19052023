@@ -22,17 +22,27 @@ fun main() {
     // Biểu thức: Đoạn lệnh có giá trị trả về
     // Toán tử: + - * /
     // Toáng hạng: số
-    var number = 5
-    var number2 = number++
+    // var number = 5
+    // var number2 = number++
     // Biểu thức ++, --
     // 1: Nếu ++a
-    //      a: Thực hiện tăng giá trị lên 1
-    //      b: Gán giá trị vào vị trí hiện tại
+    //      Step1: Thực hiện tăng giá trị lên 1
+    //      Step2: Gán giá trị vào vị trí hiện tại
 
     // 2: Nếu a++
-    //      a: Gán giá trị vào vị trí hiện tại
-    //      b: Thực hiện tăng giá trị lên 1
-    println("Number $number") // number = 6
-    println("Number2 $number2") // number2 = 5
+    //      Step1: Gán giá trị vào vị trí hiện tại
+    //      Step2: Thực hiện tăng giá trị lên 1
+    // println("Number $number") // number = 6
+    // println("Number2 $number2") // number2 = 5
 
+    // 4: Câu điều kiện if else
+    var number = 5
+    var number2 = 10
+    if (number > number2) {
+        print("Number lớn hơn number2")
+    } else if (number < number2) {
+        print("Number bé hơn number2")
+    } else {
+        print("Number bằng number2")
+    }
 }
