@@ -117,4 +117,22 @@ fun main() {
     // Xóa
     // userMaps.remove("id")
 
+    // 8: Vòng lặp for
+
+    // a: Duyệt dữ liệu trong khoảng
+    // Duyệt thuận
+    // for ((index, value) in (10 until 20 step 2).withIndex()) {
+    //    println("Index $index, Value $value")
+    // }
+
+    // Duyệt ngược
+    // for (value in 20 downTo 1) {
+    //    println(value)
+    // }
+
+    // Tạo vòng lặp 1 -> 100
+    // Bài 1: In số chẳn
+    // Bài 2: In số lẻ
+    // Bài 3: In số chia 3 dư 1
+    // Bài 4: In số chia hết cho 2 và 5
 }
