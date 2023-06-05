@@ -77,7 +77,44 @@ fun main() {
 
     // Cập nhật giá trị
     // Object like array => js
-    val arrNames = arrayOf("tèo", "Tí", "Tủn")
-    arrNames[0] = "phat"
-    print(arrNames.getOrNull(4))
+    // val arrNames = arrayOf("tèo", "Tí", "Tủn")
+    // arrNames[0] = "phat"
+    // print(arrNames.getOrNull(4))
+
+    // 7: Mảng (Collection)
+    // List
+    // Khai báo:
+
+    // val listName = mutableListOf<String>()
+    // Thêm phần tử
+    // listName.add("Tèo")
+    // listName.add("Tí")
+    // listName.add("Tủn")
+
+    // Xóa phần tử
+    // listName.removeAt(0)
+
+    // Cập nhật phần tử
+    // listName[0] = "Tuấn"
+
+    // Set
+
+    // val setNumbers = mutableSetOf<Int>()
+    // setNumbers.add(1)
+    // setNumbers.add(1)
+    // setNumbers.add(1)
+
+    // print(setNumbers.size)
+
+    // Map
+
+    // val userMaps = mutableMapOf<String, String>()
+    // Thêm hoặc chỉnh sửa
+    // userMaps["id"] = "1"
+    // userMaps["username"] = "Teo"
+    // userMaps["password"] = "123456"
+
+    // Xóa
+    // userMaps.remove("id")
+
 }
