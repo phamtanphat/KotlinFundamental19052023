@@ -185,28 +185,36 @@ fun main() {
     //    }
     //}
 
-    printNumber(object : (Int) -> Boolean{
-        override fun invoke(element: Int): Boolean {
-            return sqrt(element.toDouble()) % 1 == 0.0
-        }
-    })
+    // printNumber(object : (Int) -> Boolean{
+    //    override fun invoke(element: Int): Boolean {
+    //        return sqrt(element.toDouble()) % 1 == 0.0
+    //    }
+    // })
+
+    // Class và object
+    // Khai báo object
+
+    val cat = Animal()
+    cat.name = "Mimi"
+    cat.weight = 1.2f
+    print(cat.name)
 }
 
-fun printNumber(callBack: (Int) -> Boolean) {
-    for (element in 1..100) {
-        val isValidCondition = callBack(element)
-        if (isValidCondition) {
-            println(element)
-        }
-    }
-}
-
-fun printMessage(message: String) {
-    print(message)
-}
-
-fun plus(numberA: Int, numberB: Int): Int {
-    return numberA + numberB
-}
+//fun printNumber(callBack: (Int) -> Boolean) {
+//    for (element in 1..100) {
+//        val isValidCondition = callBack(element)
+//        if (isValidCondition) {
+//            println(element)
+//        }
+//    }
+//}
+//
+//fun printMessage(message: String) {
+//    print(message)
+//}
+//
+//fun plus(numberA: Int, numberB: Int): Int {
+//    return numberA + numberB
+//}
 
 
