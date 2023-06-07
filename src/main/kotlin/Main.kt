@@ -1,5 +1,4 @@
 import kotlin.math.sqrt
-import kotlin.random.Random
 
 fun main() {
     // Comment code : // => không chạy đoạn lệnh
@@ -180,8 +179,23 @@ fun main() {
     // }
 
     // Bài 4: in số chính phương
+    // for (element in 1..100) {
+    //    if (sqrt(element.toDouble()) % 1 == 0.0) {
+    //        println(element)
+    //    }
+    //}
+
+    printNumber(object : (Int) -> Boolean{
+        override fun invoke(element: Int): Boolean {
+            return sqrt(element.toDouble()) % 1 == 0.0
+        }
+    })
+}
+
+fun printNumber(callBack: (Int) -> Boolean) {
     for (element in 1..100) {
-        if (sqrt(element.toDouble()) % 1 == 0.0) {
+        val isValidCondition = callBack(element)
+        if (isValidCondition) {
             println(element)
         }
     }
