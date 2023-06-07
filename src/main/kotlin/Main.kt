@@ -1,3 +1,6 @@
+import kotlin.math.sqrt
+import kotlin.random.Random
+
 fun main() {
     // Comment code : // => không chạy đoạn lệnh
 
@@ -135,4 +138,61 @@ fun main() {
     // Bài 2: In số lẻ
     // Bài 3: In số chia 3 dư 1
     // Bài 4: In số chia hết cho 2 và 5
+
+    // 9: Vòng lặp while
+
+    // var number = 0
+    // var isContinue = true
+    // var numberStringNotCorrectCondition = ""
+    // while (isContinue) {
+    //     number = Random.nextInt(1000)
+    //     if (number % 2 == 0 && number % 5 == 0) {
+    //         isContinue = false
+    //     } else {
+    //         numberStringNotCorrectCondition += "$number , "
+    //     }
+    //  }
+    // println(numberStringNotCorrectCondition)
+    // println("Chia hết cho 2 và 5: $number")
+
+    // val total = plus(5, 10)
+    // printMessage(total.toString())
+
+    // Bài 1: in số chẳn
+    // for (element in 1..100) {
+    //     if (element % 2 == 0) {
+    //          print(element)
+    //     }
+    // }
+
+    // Bài 2: in số lẻ
+    // for (element in 1..100) {
+    //     if (element % 2 == 1) {
+    //         print(element)
+    //     }
+    // }
+
+    // Bài 3: in số chia 3 dư 1
+    // for (element in 1..100) {
+    //     if (element % 3 == 1) {
+    //         print(element)
+    //     }
+    // }
+
+    // Bài 4: in số chính phương
+    for (element in 1..100) {
+        if (sqrt(element.toDouble()) % 1 == 0.0) {
+            println(element)
+        }
+    }
 }
+
+fun printMessage(message: String) {
+    print(message)
+}
+
+fun plus(numberA: Int, numberB: Int): Int {
+    return numberA + numberB
+}
+
+
