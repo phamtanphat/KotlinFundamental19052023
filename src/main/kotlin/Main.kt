@@ -194,8 +194,16 @@ fun main() {
     // Class và object
     // Khai báo object
 
-    val cat = Animal("Mimi", 1.2f)
-    print(cat.name)
+     val cat = Animal("Mimi", 1.2f)
+     // Validation: Kiểm tra
+     // Format: định dạng
+     cat.name = ""
+     print(cat.name)
+    // Tính kế thừa
+    // Tính đóng gói
+    // Tính đa hình
+    // Tính trườu tượng
+
 }
 
 //fun printNumber(callBack: (Int) -> Boolean) {
