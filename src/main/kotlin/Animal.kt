@@ -1,6 +1,9 @@
-class Animal {
+class Animal(
     // 1: Thuộc tính
+    var name: String,
+    var weight: Float
+) {
+
     // 2: Phương thức
-    var name: String = ""
-    var weight: Float = 0.0f
+
 }

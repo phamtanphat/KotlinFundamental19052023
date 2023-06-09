@@ -194,9 +194,7 @@ fun main() {
     // Class và object
     // Khai báo object
 
-    val cat = Animal()
-    cat.name = "Mimi"
-    cat.weight = 1.2f
+    val cat = Animal("Mimi", 1.2f)
     print(cat.name)
 }
 
