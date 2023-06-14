@@ -1,6 +1,4 @@
-import java.util.Random
-
-class Animal {
+open class Animal {
     // 1: Thuộc tính
     var name: String = ""
         get() = "Trong function get $field"

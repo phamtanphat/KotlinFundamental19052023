@@ -194,16 +194,16 @@ fun main() {
     // Class và object
     // Khai báo object
 
-     val cat = Animal("Mimi", 1.2f)
+     val cat = Cat("Mimi", 1.2f)
+     print(cat.name)
      // Validation: Kiểm tra
      // Format: định dạng
-     cat.name = ""
-     print(cat.name)
     // Tính kế thừa
-    // Tính đóng gói
+    // Tính đóng gói:
+    // a: Phạm vi truy cập (Access modifier)
+    // b: Sử dụng getter và setter để validation cho thuộc tính
     // Tính đa hình
     // Tính trườu tượng
-
 }
 
 //fun printNumber(callBack: (Int) -> Boolean) {
