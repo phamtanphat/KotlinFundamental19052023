@@ -1,4 +1,6 @@
-import kotlin.math.sqrt
+import demo_astraction.PizzaCheese
+import demo_astraction.PizzaMeat
+import demo_astraction.PizzaStore
 
 fun main() {
     // Comment code : // => không chạy đoạn lệnh
@@ -194,16 +196,19 @@ fun main() {
     // Class và object
     // Khai báo object
 
-     val cat = Cat("Mimi", 1.2f)
-     print(cat.name)
-     // Validation: Kiểm tra
-     // Format: định dạng
+    // val cat = Cat("Mimi", 1.2f)
+    // print(cat.printDetailAnimal())
+    // Validation: Kiểm tra
+    // Format: định dạng
     // Tính kế thừa
     // Tính đóng gói:
     // a: Phạm vi truy cập (Access modifier)
     // b: Sử dụng getter và setter để validation cho thuộc tính
     // Tính đa hình
     // Tính trườu tượng
+
+     val pizzaStore = PizzaStore()
+     pizzaStore.orderPizza(PizzaCheese())
 }
 
 //fun printNumber(callBack: (Int) -> Boolean) {

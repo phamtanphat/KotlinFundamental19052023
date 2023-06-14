@@ -21,7 +21,7 @@ open class Animal {
     }
 
     // 2: Phương thức
-    fun printDetailAnimal() {
+    open fun printDetailAnimal() {
         println("Name: $name")
         println("Weight: $weight")
     }
